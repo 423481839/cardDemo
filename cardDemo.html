@@ -96,7 +96,7 @@
 
     .moreoptions__icon{
       height: 20px;
-      width: 7px;
+      /* 这里宽度删掉就居中了 */
       border-right: grey dotted 4px;
     }
 
@@ -227,6 +227,12 @@
 
   </style>
 </head>
+    <!-- 整体位置感还是可以，就是细节需要认真做一下，参考这个作业，https://github.com/56tiagra/css-flex-prac
+    最下面的icon
+    这些img的icon可以用font-awesome的icon来代替，参考一下https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+    字体可以用Google的fonts，会更好看一些，可以参考一下这个作业的引用https://github.com/56tiagra/css-flex-prac
+    class命名可以用BEM的方法，比如card， card__header, card__header__left-icon, card__header__title, card__header__right-icon这样，你这里有一些不一致-->
+     
 <body>
     <div class="container">
         <div class="card">
@@ -234,6 +240,7 @@
               <div class="logo">
                 <img src="https://ui-avatars.com/api/?name=Jack+Ye&size=38&rounded=true&color=EB346E" alt="avatar">
               </div>
+              <!-- class名字都要小写 -->
               <div class="header__Container">
                 <div class="title">
                   <p>这是我喜欢的一个动漫</p>
